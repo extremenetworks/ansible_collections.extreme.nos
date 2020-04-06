@@ -2,13 +2,20 @@ namespace: extreme
 name: nos
 version: 0.1.0
 readme: README.md
-authors: null
-description: null
+authors:
+    - Ujwal Komarla
+description: An Ansible collection for managing Extreme Networks devices running NOS.
 license: GPL-3.0-or-later
 license_file: COPYING
-tags: null
-dependencies: {}
-repository: git@github.com:ansible-collection-migration/extreme.nos.git
-documentation: https://github.com/ansible-collection-migration/extreme.nos/tree/master/docs
-homepage: https://github.com/ansible-collection-migration/extreme.nos
-issues: https://github.com/ansible-collection-migration/extreme.nos/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+dependencies:
+  "ansible.netcommon": "*"
+repository: git@github.com:extremenetworks/ansible_collections.extreme.nos.git
+documentation: https://github.com/extremenetworks/ansible_collections.extreme.nos/tree/master/docs
+homepage: https://github.com/extremenetworks/ansible_collections.extreme.nos
+issues: https://github.com/extremenetworks/ansible_collections.extreme.nos/issues
+tags:
+    - networking
+    - nos
+    - extreme
+    - switching
+    - collection
