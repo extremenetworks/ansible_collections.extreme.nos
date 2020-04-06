@@ -24,7 +24,7 @@ import json
 from ansible_collections.extreme.nos.tests.unit.compat.mock import patch
 from ansible_collections.extreme.nos.tests.unit.modules.utils import set_module_args
 from ansible_collections.extreme.nos.plugins.modules import nos_command
-from ..nos_module import TestNosModule, load_fixture
+from .nos_module import TestNosModule, load_fixture
 
 
 class TestNosCommandModule(TestNosModule):
